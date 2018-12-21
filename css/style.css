@@ -118,6 +118,18 @@ float : left;
 padding : 0;
 position : relative;
 }
+#nav_menu p {
+color: #00aff0;
+font-size: 18px;
+display : block;
+font-family : lato;
+font-weight : bold;
+line-height : 32px;
+padding : 25px 14px;
+text-decoration : none;
+text-transform : capitalize;
+transition : all 0.4s 0s ease;
+}
 #nav_menu ul li a:hover {
 transition : all 0.4s 0s ease;
 background : #ffffff;
@@ -193,6 +205,9 @@ padding : 70px 0;
 margin : 0 auto;
 padding : 0 0 25px 0;
 text-align : center;
+}
+.title_sec span {
+color: #00AFF0;
 }
 .title_sec h2 {
 color : #606060;
@@ -351,7 +366,8 @@ vertical-align : middle;
 width : 100%;
 }
 #slider_sec {
-background-image : url("../img/slider.jpg");
+/*background-image : url("../img/slider.jpg");*/
+background-color: #f0f0f0;
 background-position : center center;
 background-repeat : no-repeat;
 background-size : 100% 100%;
@@ -372,12 +388,12 @@ font-weight : normal;
 font-family : lato;
 font-size : 48px;
 text-transform : capitalize;
-color : #fff;
+color : #00AFF0;
 }
 .caption_carousel p {
 font-family : lato;
 font-size : 24px;
-color : #fff;
+color : #515050;
 padding : 8px;
 }
 .caption_carousel {
@@ -409,7 +425,7 @@ background : none 0 0 repeat scroll #f0f0f0;
 padding : 90px 0;
 }
 .counting_sl h2 {
-color : #515050;
+color : #00AFF0;
 font-size : 48px;
 }
 .counting_sl h4 {
@@ -439,6 +455,7 @@ cursor : pointer;
 text-align : center;
 padding : 61px 0;
 }
+
 .service > h2 {
 color : #515050;
 font-size : 14px;
